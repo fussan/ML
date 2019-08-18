@@ -25,5 +25,27 @@ print(g)
 h = np.zeros_like(c)
 print(h)
 
-i = np.identity(4)
+i = np.identity(4)          #単位行列
 print(i)
+
+print(a.dtype)
+
+j = np.array([1, 2, 3], dtype=float)
+print(j.dtype)
+
+k = np.array(j, dtype=complex)
+print(k)
+
+l = np.array([1, 2, 3, 4, 5], dtype=float)
+print(l[3])
+
+m = np.array([[11, 12, 13], [21, 22, 23]])
+print(m.shape)
+print(m[1, 2])
+
+n = np.array([[1], [2], [3]])       #縦ベクトル
+print(n)
+
+o = np.array([[1, 2, 3]])           #横ベクトル
+print(o)
+
